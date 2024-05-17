@@ -1,0 +1,12 @@
+<mat-sidenav-container class="tb-height--full">
+    <mat-sidenav-content fxLayout="column">
+        <div class="tb-height--full" fxLayout="column">
+            <!--  tb-color-bg--white -->
+            <div fxFlex cdkScrollable class="tb-height--full tb-overflow--auto" id="dashboard-container"
+                #contentScroller>
+                <!-- (activate)="onActivate($event, outlet)" -->
+                <router-outlet #outlet></router-outlet>
+            </div>
+        </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
