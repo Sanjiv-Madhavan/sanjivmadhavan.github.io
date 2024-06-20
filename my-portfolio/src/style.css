@@ -1,0 +1,205 @@
+html {
+    --section-background-color: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.582),
+            rgba(12, 8, 24, 0.904));
+
+    --image-gradient: linear-gradient(to bottom left,
+            rgba(17, 16, 16, 0.678),
+            rgba(12, 10, 22, 0.863));
+
+    --imp-text-color: #1f0060;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #1f0060;
+    background-image: url(./images/pre.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#preloader-none {
+    opacity: 0;
+}
+
+.home-header {
+  padding-top: 0px !important;
+}
+
+.home-section {
+    position: relative;
+    z-index: 2;
+    background-image: var(--image-gradient), url(./images/h3.jpg);
+    background-position: bottom center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    padding-bottom: 22px !important;
+    padding-top: 30px !important;
+}
+
+.home-content {
+    padding: 9rem 0 2rem !important;
+    color: #fbd9ad;
+    text-align: left;
+    z-index: 6;
+}
+
+.Typewriter__wrapper {
+    font-size: 2.2em !important;
+    color: #cb70ff !important;
+    font-weight: 500 !important;
+  }
+  .Typewriter__cursor {
+    font-size: 2.4em !important;
+    color: #cb70ff !important;
+  }
+
+.typing-homeclass{
+    padding-left: 45px;
+    text-align: left;
+    font-size: 1.8em;
+  }
+
+  .heading {
+    font-size: 4.4em !important;
+    padding-left: 45px !important;
+  }
+  
+  .heading-name {
+    font-size: 4.0em !important;
+    padding-left: 45px !important;
+  }
+
+  .rowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .main-name {
+    /* color: #cb70ff; */
+    color: #cb70ff;
+  }
+
+  .sociallink-home{
+    padding-left: 40px;
+    text-align: left;
+    padding-top: 35px;
+  }
+  
+  .homeaboutsociallinks {
+    justify-content: center !important;
+    padding-top: 20px !important;
+    display: inline-block !important;
+    position: relative !important;
+    padding-inline-start: 0 !important;
+  }
+
+  .socialicons {
+    display: inline-block !important;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .iconcolour {
+    color: #44006b;
+  }
+
+  .homesocialicons {
+    position: relative !important;
+    display: inline-block !important;
+    width: 40px !important;
+    height: 40px !important;
+    text-align: center !important;
+    font-size: 1.4em !important;
+    line-height: 2em !important;
+    background: rgba(251, 217, 173, 0.972) !important;
+    border-radius: 50% !important;
+    transition: 0.5s !important;
+  }
+  
+  .img-fluid {
+    width: 384px;
+  }
+  .img-home-main{
+    width: 100% !important;
+    text-align: center !important;
+    padding-top: 40px !important;
+  }
+  
+#tsparticles {
+    position: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
+
+#no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.heading {
+    font-size: 4.4em !important;
+    padding-left: 45px !important;
+}
+
+.heading-name {
+    font-size: 4.0em !important;
+    padding-left: 45px !important;
+}
+
+/* -------Wave Animation --------*/
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
