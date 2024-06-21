@@ -6,10 +6,9 @@ function Typing() {
         <Typewriter
             options={{
                 strings: [
-                    "Golang/Kubernetes Developer",
+                    "Go/K8s Developer",
                     "Frontend Developer",
-                    "SAP Labs",
-                    "University of Birmingham",
+                    "Ex - SAP Labs",
                 ],
                 autoStart: true,
                 loop: true,

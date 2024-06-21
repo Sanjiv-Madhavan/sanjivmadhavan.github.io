@@ -6,6 +6,8 @@ import Preloader from "./Preloader";
 import { Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from './pages/homepage/HomePage';
+import About from './components/aboutme/about/about';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
 
@@ -14,7 +16,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       updateLoad(false);
-    }, 4000);
+    }, 0);
 
     return () => clearTimeout(timer);
   }, []);
@@ -22,9 +24,11 @@ function App() {
   return (
     <Router>
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App" >
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Home />}>
+          <Route path='/' element={<About />}></Route>
+          </Route>
         </Routes>
       </div>
     </Router>

@@ -6,9 +6,14 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { FiMail } from "react-icons/fi";
 import Tilt from "react-parallax-tilt";
+import AboutContainer from "../../components/aboutme/AboutContainer";
+import { ParallaxProvider } from "react-scroll-parallax";
+import { AdvancedBannerTop } from "../BackgroundBanner/Banner";
 
 export default function Home() {
     return (
+      <ParallaxProvider>
+        <AdvancedBannerTop />
       <section className="home-section"> 
         <Container fluid id="home">
           <Particle />
@@ -102,6 +107,8 @@ export default function Home() {
             </Row>
           </Container>
         </Container>
+        <AboutContainer></AboutContainer>
       </section>
+      </ParallaxProvider>
     )
 }

@@ -131,6 +131,82 @@ html {
     text-align: center !important;
     padding-top: 40px !important;
   }
+
+  .home-about-section {
+    position: relative;
+    padding-bottom: 70px !important;
+    padding-top: 70px !important;
+    color:#fbd9ad;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .aboutme-heading{
+    font-size: 4.6em;
+    color:#fbd9ad;
+  }
+
+  .navLink {
+    font-size: 17px;
+    color: #fbd9ad;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  }
+
+  .navItem {
+    display: inline;
+  }
+
+  .nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link.active {
+    color: #a12be6 !important;
+    background-color: #fbd9ad;
+    border-color: #fbd9ad #fbd9ad #fbd9ad;
+    font-size: 17px;
+    font-weight:600;
+  }
+
+  .nav-link {
+    padding: 0.8rem 1rem !important;
+  }
+  
+  .nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid transparent !important;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+  }
+
+  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #fbd9ad #fbd9ad #fbd9ad !important;
+    color: #fbd9ad;
+    isolation: isolate;
+  }
+
+  .home-about-body {
+    font-size: large;
+    text-align: left;
+  }
+
+  .purple-bold {
+    font-weight: 650;
+    color: #a12be6;
+  }
+
+  .logo-display {
+    text-align: center;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+  }
   
 #tsparticles {
     position: fixed !important;
