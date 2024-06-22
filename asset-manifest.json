@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/sanjivmadhavan.github.io/static/css/main.3a32245b.css",
+    "main.js": "/sanjivmadhavan.github.io/static/js/main.d84167ff.js",
+    "static/js/453.acca0757.chunk.js": "/sanjivmadhavan.github.io/static/js/453.acca0757.chunk.js",
+    "static/media/grafana.png": "/sanjivmadhavan.github.io/static/media/grafana.e9bdfc26ab549e6ddc20.png",
+    "static/media/react.png": "/sanjivmadhavan.github.io/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/docker.png": "/sanjivmadhavan.github.io/static/media/docker.d9e5112c08bda81b3f8e.png",
+    "static/media/go.png": "/sanjivmadhavan.github.io/static/media/go.f15ba9f78e8afab59625.png",
+    "static/media/prom.png": "/sanjivmadhavan.github.io/static/media/prom.1253864f7ee060365a37.png",
+    "static/media/aws.png": "/sanjivmadhavan.github.io/static/media/aws.e901bc3397ff5cdfd815.png",
+    "static/media/dynamo.png": "/sanjivmadhavan.github.io/static/media/dynamo.e030ec205c15589242b2.png",
+    "static/media/html.png": "/sanjivmadhavan.github.io/static/media/html.fb627e76c05a9a6c7444.png",
+    "static/media/java.png": "/sanjivmadhavan.github.io/static/media/java.5d5cffa04d820ba0644c.png",
+    "static/media/js.png": "/sanjivmadhavan.github.io/static/media/js.166865dacb77d214f485.png",
+    "static/media/helm.png": "/sanjivmadhavan.github.io/static/media/helm.c85ea96fabb433a02e99.png",
+    "static/media/css.png": "/sanjivmadhavan.github.io/static/media/css.f5abc244362b5136dc0e.png",
+    "static/media/pre.svg": "/sanjivmadhavan.github.io/static/media/pre.e4c81c26304bc309eb55.svg",
+    "static/media/h3.jpg": "/sanjivmadhavan.github.io/static/media/h3.dc52d5d40a40b13154b0.jpg",
+    "static/media/angular.png": "/sanjivmadhavan.github.io/static/media/angular.b2bfc5212a4a806e8bd9.png",
+    "static/media/k8s.png": "/sanjivmadhavan.github.io/static/media/k8s.88e38f11b997f80e8998.png",
+    "static/media/logo.svg": "/sanjivmadhavan.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sanjivmadhavan.github.io/index.html",
+    "main.3a32245b.css.map": "/sanjivmadhavan.github.io/static/css/main.3a32245b.css.map",
+    "main.d84167ff.js.map": "/sanjivmadhavan.github.io/static/js/main.d84167ff.js.map",
+    "453.acca0757.chunk.js.map": "/sanjivmadhavan.github.io/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a32245b.css",
+    "static/js/main.d84167ff.js"
+  ]
+}
