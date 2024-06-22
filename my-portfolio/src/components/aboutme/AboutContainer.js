@@ -19,13 +19,13 @@ export default function AboutContainer() {
                                         <Nav.Link className="navLink" as={Link} to="/" eventKey="link-1" style={{ fontSize: "17px", fontWeight: 700 }}>About</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item className="navItem">
-                                        <Nav.Link className="navLink" as={Link} to="/" eventKey="link-2" style={{ fontSize: "17px", fontWeight: 700 }}>Skills</Nav.Link>
+                                        <Nav.Link className="navLink" as={Link} to="skills/backend" eventKey="link-2" style={{ fontSize: "17px", fontWeight: 700 }}>Skills</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item className="navItem">
-                                        <Nav.Link className="navLink" as={Link} to="/" eventKey="link-3" style={{ fontSize: "17px", fontWeight: 700 }}>Experience</Nav.Link>
+                                        <Nav.Link className="navLink" as={Link} to="experience" eventKey="link-3" style={{ fontSize: "17px", fontWeight: 700 }}>Experience</Nav.Link>
                                     </Nav.Item>
                                     <Nav.Item className="navItem">
-                                        <Nav.Link className="navLink" as={Link} to="/" eventKey="link-4" style={{ fontSize: "17px", fontWeight: 700 }}>Education</Nav.Link>
+                                        <Nav.Link className="navLink" as={Link} to="education" eventKey="link-4" style={{ fontSize: "17px", fontWeight: 700 }}>Education</Nav.Link>
                                     </Nav.Item>
                                 </Nav>
                                 <Outlet />

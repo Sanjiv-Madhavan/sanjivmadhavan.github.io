@@ -1,6 +1,6 @@
 html {
     --section-background-color: linear-gradient(to bottom left,
-            rgba(17, 16, 16, 0.582),
+            rgba(12, 10, 22, 0.863),
             rgba(12, 8, 24, 0.904));
 
     --image-gradient: linear-gradient(to bottom left,
@@ -117,7 +117,6 @@ html {
     height: 40px !important;
     text-align: center !important;
     font-size: 1.4em !important;
-    line-height: 2em !important;
     background: rgba(251, 217, 173, 0.972) !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
@@ -187,6 +186,12 @@ html {
     isolation: isolate;
   }
 
+  .nav-pills .nav-link:hover, .nav-pills .nav-link:focus, .nav-pills .nav-link:active {
+    border-color: #fbd9ad #fbd9ad #fbd9ad !important;
+    color: #a12be6;
+    isolation: isolate;
+  }
+
   .home-about-body {
     font-size: large;
     text-align: left;
@@ -207,7 +212,29 @@ html {
     width: 100px; /* Adjust the width as needed */
     height: auto;
   }
-  
+
+  .tech-icons {
+    border: 1.5px solid #a12be6;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 4.5em !important;
+    padding: 25px !important;
+    opacity: 0.93 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    box-shadow: 4px 5px 4px 3px rgba(105, 4, 199, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+    display: table !important;
+  }
+
+  .tech-icons:hover {
+    transform: scale(1.05) !important;
+    box-shadow: 10px 10px 25px 10px rgba(105, 4, 199, 0.137) !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease 0s !important;
+  }
+
 #tsparticles {
     position: fixed !important;
     background-repeat: no-repeat !important;
