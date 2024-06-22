@@ -23,13 +23,13 @@ export default function DevOps() {
                                     <h2>I deploy using</h2>
                                     <Container className="mt-4">
                                         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_docker} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_helm} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_aws} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
                                         </Row>

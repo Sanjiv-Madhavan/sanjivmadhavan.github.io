@@ -8,6 +8,7 @@ import { FiMail } from "react-icons/fi";
 import Tilt from "react-parallax-tilt";
 import AboutContainer from "../../components/aboutme/AboutContainer";
 import Particle from "../../Particle";
+import ProjectsComponent from "../../components/projects/Projects";
 
 export default function Home() {
     return (
@@ -36,11 +37,11 @@ export default function Home() {
                     </h1>
                   </Parallax>
 
-                  <Parallax speed={10}>
+                  {/* <Parallax speed={10}>
                     <div className="typing-homeclass">
                       <Typing />
                     </div>
-                  </Parallax>
+                  </Parallax> */}
                   <Parallax speed={30}>
                   <div className="sociallink-home">
                     <ul className="homeaboutsociallinks">
@@ -116,6 +117,9 @@ export default function Home() {
           </Container>
           <Parallax speed={30}>
             <AboutContainer />
+          </Parallax>
+          <Parallax className="home-about-section" speed={30}>
+            <ProjectsComponent />
           </Parallax>
         </section>
       </ParallaxProvider>

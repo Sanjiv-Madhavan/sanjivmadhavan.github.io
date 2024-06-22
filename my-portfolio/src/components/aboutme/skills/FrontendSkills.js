@@ -25,19 +25,19 @@ export default function Frontend() {
                                     <h2>I Fortify my frontend with</h2>
                                     <Container className="mt-4">
                                         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_react} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_angular} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_html} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_js} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
-                                            <Col xs={5} md={3} lg={2} className="tech-icons">
+                                            <Col xs={12} sm={6} md={3} lg={2} className="tech-icons">
                                                 <img src={image_css} alt="" style={{ width: "85%", height: "50%", paddingBottom: "2px" }} />
                                             </Col>
                                         </Row>
